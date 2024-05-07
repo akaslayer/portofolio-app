@@ -1,0 +1,110 @@
+.menu-toogle-show {
+  transform: translateX(0);
+  height: 100%;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  background-color: #0b0c0e;
+  z-index: 999;
+  transition: 2s all;
+  top: 0;
+}
+.menu-toogle- {
+  display: none;
+}
+
+.menu--list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 28px;
+  padding: 0px 80px;
+}
+
+.menu-toogle- nav ul li {
+  color: #f4f7fa;
+  font-family: 'PP Neue Montreal', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+}
+
+.menu-toogle-show nav {
+  position: absolute;
+  bottom: 0;
+}
+.menu-toogle-show nav ul li {
+  color: #f4f7fa;
+  font-family: 'PP Neue Montreal', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+}
+
+.menu--list a {
+  text-decoration: none;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 72px;
+  font-family: 'PP Neue Montreal', sans-serif;
+  text-align: left;
+  color: #ffffff;
+}
+
+@keyframes move-rtl {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(100%, 0);
+  }
+}
+
+.menu-toogle-show button {
+  display: flex;
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  border-radius: 150px;
+  padding: 40px 50px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: all 0.5s;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.menu-toogle-show button i {
+  font-size: 32px;
+}
+
+.menu-toogle-show button:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #fff;
+  border-radius: 180px;
+  transition: all 0.5s;
+}
+
+.menu-toogle-show button span {
+  position: relative;
+  z-index: 2;
+}
+.menu-toogle-show button:hover {
+  color: #0b0c0e;
+}
+
+.menu-toogle-show button:hover:after {
+  width: 100%;
+}
