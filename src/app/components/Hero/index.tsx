@@ -22,7 +22,7 @@ const Hero = () => {
           <h1>|| Game Developer - Developer </h1>
         </div>
         <div className='absolute flex-start flex right-0 bottom-1/2 translate-y-3/4 translate-x-[75%] items-center hover:translate-x-[20%] hover:ease-in hover:duration-500'>
-          <button onClick={handleButtonClick} className=' bg-black text-white rounded-full py-8 px-24 flex-start flex  text-3xl'>Hi I'm Hendry</button>
+          <button onClick={handleButtonClick} className=' bg-black text-white rounded-full py-8 px-24 flex-start flex  text-3xl'>Hi I&apos;m Hendry</button>
           <div className='flex absolute left-4'>
             <Image src={hand} alt='' />
           </div>

@@ -27,7 +27,7 @@ const ContactForm = () => {
         </div>
 
         <div className='contact--item'>
-          <h2>Let's build something cool together</h2>
+          <h2>Let&apos;s build something cool together</h2>
           <div className='form'>
             <div className='input--form'>
               <label htmlFor='Name'>Name</label>
